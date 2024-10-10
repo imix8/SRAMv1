@@ -1,0 +1,24 @@
+header
+"PSFversion" "1.00" 
+"simulator" "HSPICE"
+"version" "G-2012.06 32-BIT" 
+"rundate" "13:57:37 02/11/2015 " 
+"runtitle" "** generated for: hspiced                                         " 
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"summary" "analysisInst" ( 
+"Summary Information"
+"test_inv_spice.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

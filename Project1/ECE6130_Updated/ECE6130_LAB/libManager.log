@@ -1,0 +1,86 @@
+\o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 05/06/2013 23:35 (cat91amd) $
+\o Sub version:		sub-version  s014 
+\o Arguments:		-unmapped -mpssession virtuoso11084 -mpshost kl3313-08.ece.gatech.edu 
+\o Working Directory:	kl3313-08.ece.gatech.edu:/nethome/mkar3/Desktop/TA/ECE8893_LAB
+\o 64-bit offsets
+\o Qt version: 		4.5.3
+\o changeWorkingDir("/nethome/mkar3/Desktop/TA/ECE8893_LAB") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/nethome/mkar3/Desktop/TA/ECE8893_LAB/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1967 -24 1910 1051))
+\a cdsLibManager->libListBox->value = "Test_Mono"
+\a cdsLibManager->cellListBox->value = "test_inv"
+\a cdsLibManager->cellLineEdit->value = "test_inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libLineEdit->value = "Test_Mono"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Test_Mono"
+\a cdsLibManager->libLineEdit->value = "Test_Mono"
+\a cdsLibManager->cellListBox->value = "test_inv"
+\a cdsLibManager->cellLineEdit->value = "test_inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "test_inv"
+\a cdsLibManager->cellLineEdit->value = "test_inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Test_Mono"
+\a cdsLibManager->libLineEdit->value = "Test_Mono"
+\a cdsLibManager->cellListBox->value = "test_inv"
+\a cdsLibManager->cellLineEdit->value = "test_inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "test_inv"
+\a cdsLibManager->cellLineEdit->value = "test_inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

@@ -1,0 +1,19 @@
+1. login to linux machine
+   (environment setting in "source.me.first" is for linux OS)
+2. use tcsh (/bin/tcsh) or csh (/bin/csh) 
+
+3. source source.me.first
+
+4 Schematic/Layout : Cadence Virtuoso
+	1. go to Cadence directory
+	2. virtuoso&
+
+5 Hspice simulation
+	1. go to Hspice directory
+	2. run or run.monte
+	3. wv& (view simulation waveform)
+
+*. Directory structure
+	: Cadence - virtuoso directory
+	: Hspice - hspice simulation directory
+	: FreePDK45 - 45nm free design kit directory

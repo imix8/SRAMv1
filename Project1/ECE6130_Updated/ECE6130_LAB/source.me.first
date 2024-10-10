@@ -1,0 +1,47 @@
+#if ( $?LD_LIBRARY_PATH != 1 ) then
+#    setenv LD_LIBRARY_PATH ""
+#endif
+
+########################Cadence Tools###################
+#Cadence has a different source script now.
+#source /tools/software/cadence/setup.csh
+source /tools/software/cadence/ic/cshrc.latest
+########################################################
+
+
+
+########################Mentor Tools###################
+#Mentor Graphics tools are under siemens directory
+#source /tools/software/mentor/setup.csh
+source /tools/software/siemens/setup.csh
+
+#######################################################
+
+
+
+#source /tools/cadence/FreePDK45/ncsu_basekit/cdssetup/setup.csh.615
+#source /tools/cadence/FreePDK45/ncsu_basekit/cdssetup/icoa_setup.csh.615
+#source /tools/cadence/ic615hf171/cshrc.64ggbit
+#source /tools/mentor/calibre/ixl2014/aoi_cal_2014.3_16.15/meta.cshrc
+#source /tools/synopsys/hspice/g201206/cshrc.meta
+#source /tools/synopsys/custom/g201206/cshrc.meta
+
+
+setenv CDS_Netlisting_Mode Analog
+
+set LABDIR = "$cwd"
+
+setenv PDK_DIR $LABDIR/FreePDK45
+
+source $PDK_DIR/ncsu_basekit/cdssetup/setup.csh
+#source $PDK_DIR/ncsu_basekit/cdssetup/icoa_setup.csh
+
+setenv LAB_DIR $LABDIR
+
+#########################Synopsys Tools################
+
+
+source /tools/software/synopsys/setup.csh
+
+#######################################################
+
