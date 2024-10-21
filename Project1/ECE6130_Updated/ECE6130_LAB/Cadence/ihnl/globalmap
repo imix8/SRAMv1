@@ -1,8 +1,0 @@
-CADENCE IHNL11140
-$model
-HSPICE_Tutorial/myInverter/schematic myInverter
-$endmodel
-$net
-$endnet
-$param
-$endparam
