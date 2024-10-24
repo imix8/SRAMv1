@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Oct 10 11:56:34 2024</timestamp>
+			<uuid>{2eb905bb-5bbb-4f56-8526-d0f231477424}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/nethome/smin63/ECE4130/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/2to4DecoderEnable/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/nethome/smin63/ECE4130/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/2to4DecoderEnable/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/nethome/smin63/simulation/ECE4130_Project/2to4DecoderEnable/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE4130_Project/2to4DecoderEnable/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

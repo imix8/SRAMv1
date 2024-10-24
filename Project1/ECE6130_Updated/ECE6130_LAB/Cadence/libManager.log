@@ -1,0 +1,748 @@
+\o Program:		@(#)$CDS: libManager version 23.1 - CAT38 06/19/2024 03:28 (sjfdcl966) $
+\o Sub version:		sub-version  s080 
+\o Arguments:		-unmapped -mpssession virtuoso1680206 -mpshost ece-linlabsrv01.ece.gatech.edu -masterPID 1680206 -ADVM 
+\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
+\o 64-bit offsets
+\o Qt version: 		5.15.9
+\o MPS virtuoso types registered: 68
+\o changeWorkingDir("/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Session hidden cells enabled.
+\o Log file is "/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(48 70 1372 796))
+\a nrResizeWindow(cdsLibManager list(53 0 1372 796))
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 13 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Register6Bit"
+\a cdsLibManager->cellLineEdit->value = "Register6Bit"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "Register6Bit"
+\a cdsLibManager->cellLineEdit->value = "Register6Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Register6Bit"
+\a cdsLibManager->cellLineEdit->value = "Register6Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "Register6Bit"
+\a cdsLibManager->cellLineEdit->value = "Register6Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Register8Bit"
+\a cdsLibManager->cellLineEdit->value = "Register8Bit"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "RegisterDecoder"
+\a cdsLibManager->cellLineEdit->value = "RegisterDecoder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 7 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "RegisterDecoder"
+\a cdsLibManager->cellLineEdit->value = "RegisterDecoder"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Register8Bit"
+\a cdsLibManager->cellLineEdit->value = "Register8Bit"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 6 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "Register8Bit"
+\a cdsLibManager->cellLineEdit->value = "Register8Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Register8Bit"
+\a cdsLibManager->cellLineEdit->value = "Register8Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 6 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "Register8Bit"
+\a cdsLibManager->cellLineEdit->value = "Register8Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 13 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "writeCircuit"
+\a cdsLibManager->cellLineEdit->value = "writeCircuit"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 17 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "writeCircuit"
+\a cdsLibManager->cellLineEdit->value = "writeCircuit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "transmissionGate"
+\a cdsLibManager->cellLineEdit->value = "transmissionGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 16 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "transmissionGate"
+\a cdsLibManager->cellLineEdit->value = "transmissionGate"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "senseAmplifier"
+\a cdsLibManager->cellLineEdit->value = "senseAmplifier"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 15 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "senseAmplifier"
+\a cdsLibManager->cellLineEdit->value = "senseAmplifier"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "rowDecoder"
+\a cdsLibManager->cellLineEdit->value = "rowDecoder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 14 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "rowDecoder"
+\a cdsLibManager->cellLineEdit->value = "rowDecoder"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 13 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "peripheral"
+\a cdsLibManager->cellLineEdit->value = "peripheral"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "nor3"
+\a cdsLibManager->cellLineEdit->value = "nor3"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 12 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 11 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "nor3"
+\a cdsLibManager->cellLineEdit->value = "nor3"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 12 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "nor3"
+\a cdsLibManager->cellLineEdit->value = "nor3"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "flipFlop"
+\a cdsLibManager->cellLineEdit->value = "flipFlop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 9 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "flipFlop"
+\a cdsLibManager->cellLineEdit->value = "flipFlop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "columnDecoder"
+\a cdsLibManager->cellLineEdit->value = "columnDecoder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 8 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "columnDecoder"
+\a cdsLibManager->cellLineEdit->value = "columnDecoder"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "RegisterDecoder"
+\a cdsLibManager->cellLineEdit->value = "RegisterDecoder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 7 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "RegisterDecoder"
+\a cdsLibManager->cellLineEdit->value = "RegisterDecoder"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Register8Bit"
+\a cdsLibManager->cellLineEdit->value = "Register8Bit"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 6 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "Register8Bit"
+\a cdsLibManager->cellLineEdit->value = "Register8Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Register6Bit"
+\a cdsLibManager->cellLineEdit->value = "Register6Bit"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "Register6Bit"
+\a cdsLibManager->cellLineEdit->value = "Register6Bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AnorB"
+\a cdsLibManager->cellLineEdit->value = "AnorB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 4 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "AnorB"
+\a cdsLibManager->cellLineEdit->value = "AnorB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "4to16Decoder"
+\a cdsLibManager->cellLineEdit->value = "4to16Decoder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "4to16Decoder"
+\a cdsLibManager->cellLineEdit->value = "4to16Decoder"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "4to1Mux"
+\a cdsLibManager->cellLineEdit->value = "4to1Mux"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 2 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "4to1Mux"
+\a cdsLibManager->cellLineEdit->value = "4to1Mux"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "2to4DecoderEnable"
+\a cdsLibManager->cellLineEdit->value = "2to4DecoderEnable"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "2to4DecoderEnable"
+\a cdsLibManager->cellLineEdit->value = "2to4DecoderEnable"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "2to4Decoder"
+\a cdsLibManager->cellLineEdit->value = "2to4Decoder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "2to4Decoder"
+\a cdsLibManager->cellLineEdit->value = "2to4Decoder"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 0)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

@@ -1,0 +1,1 @@
+[Fri Oct 11 18:26:57 EDT 2024] Error: Error: X Window Display Initialization failure (hostname:'ece-linlabsrv01.ece.gatech.edu', DISPLAY:'localhost:10.0', err:''). Possibly we are executing this application from a non-interactive queue. Please check the job policy..
