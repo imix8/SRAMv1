@@ -30,6 +30,59 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<outputs>
+					<output>/WL0
+						<evalType>point</evalType>
+					</output>
+					<output>/WL1
+						<evalType>point</evalType>
+					</output>
+					<output>/WL2
+						<evalType>point</evalType>
+					</output>
+					<output>/WL3
+						<evalType>point</evalType>
+					</output>
+					<output>/WL4
+						<evalType>point</evalType>
+					</output>
+					<output>/WL5
+						<evalType>point</evalType>
+					</output>
+					<output>/WL6
+						<evalType>point</evalType>
+					</output>
+					<output>"/WL7"
+						<evalType>point</evalType>
+					</output>
+					<output>/WL7
+						<evalType>point</evalType>
+					</output>
+					<output>/WL8
+						<evalType>point</evalType>
+					</output>
+					<output>/WL9
+						<evalType>point</evalType>
+					</output>
+					<output>/WL10
+						<evalType>point</evalType>
+					</output>
+					<output>/WL11
+						<evalType>point</evalType>
+					</output>
+					<output>/WL12
+						<evalType>point</evalType>
+					</output>
+					<output>/WL13
+						<evalType>point</evalType>
+					</output>
+					<output>/WL14
+						<evalType>point</evalType>
+					</output>
+					<output>/WL15
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ccarpenter38
+HostName                       ece-linlabsrv01.ece.gatech.edu
+ProcessIdentifier              1100233
+ProcessCreationTime_UTC        1731088299
+ProcessCreationTime_Readable   Fri Nov  8 12:51:39 2024 EST
+AppIdentifier                  /tools/software/cadence/ic/latest/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for logging service log file
+FilePathUsedToEditLock         /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/LoggingService6.log
+TimeEditLocked                 Fri Nov  8 13:30:58 2024 EST
