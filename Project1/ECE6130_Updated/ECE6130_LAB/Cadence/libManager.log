@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 23.1 - CAT38 06/19/2024 03:28 (sjfdcl966) $
 \o Sub version:		sub-version  s080 
-\o Arguments:		-unmapped -mpssession virtuoso737350 -mpshost ece-linlabsrv01.ece.gatech.edu -masterPID 737350 -ADVM 
+\o Arguments:		-unmapped -mpssession virtuoso2941436 -mpshost ece-linlabsrv01.ece.gatech.edu -masterPID 2941436 -ADVM 
 \o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
 \o 64-bit offsets
 \o Qt version: 		5.15.9
@@ -19,41 +19,14 @@
 \a nrResizeWindow(cdsLibManager list(53 0 1372 796))
 \a cdsLibManager->libListBox->value = "ECE4130_Project"
 \a cdsLibManager->libLineEdit->value = "ECE4130_Project"
-\a cdsLibManager->cellListBox->value = "SRAM"
-\a cdsLibManager->cellLineEdit->value = "SRAM"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 7 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
-\a cdsLibManager->libListBox->value = "ECE4130_Project"
-\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
-\a cdsLibManager->cellListBox->value = "SRAM"
-\a cdsLibManager->cellLineEdit->value = "SRAM"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
-\a cdsLibManager->libListBox->value = "ECE4130_Project"
-\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
-\a cdsLibManager->cellListBox->value = "SRAM"
-\a cdsLibManager->cellLineEdit->value = "SRAM"
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "SRAM_SIM"
 \a cdsLibManager->cellLineEdit->value = "SRAM_SIM"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 9 0)
+\a nrListItemAction(cdsLibManager->cellListBox 10 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
 \a cdsLibManager->libListBox->value = "ECE4130_Project"
@@ -61,12 +34,22 @@
 \a cdsLibManager->cellListBox->value = "SRAM_SIM"
 \a cdsLibManager->cellLineEdit->value = "SRAM_SIM"
 \a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "SRAM_SIM"
+\a cdsLibManager->cellLineEdit->value = "SRAM_SIM"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(101 0 1372 796))
+\a nrResizeWindow(cdsLibManager list(76 0 1372 796))
 \a cdsLibManager->cellListBox->value = "SRAM"
 \a cdsLibManager->cellLineEdit->value = "SRAM"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 7 0)
+\a nrListItemAction(cdsLibManager->cellListBox 8 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -79,13 +62,25 @@
 \a cdsLibManager->cellLineEdit->value = "SRAM"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(47 98 1372 796))
-\a nrResizeWindow(cdsLibManager list(164 0 1372 796))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "SRAM_SIM"
+\a cdsLibManager->cellLineEdit->value = "SRAM_SIM"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 10 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "ECE4130_Project"
+\a cdsLibManager->libLineEdit->value = "ECE4130_Project"
+\a cdsLibManager->cellListBox->value = "SRAM_SIM"
+\a cdsLibManager->cellLineEdit->value = "SRAM_SIM"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(321 0 1372 796))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

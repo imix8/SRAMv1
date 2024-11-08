@@ -156,11 +156,3 @@
 \o Loading simui.cxt 
 \o [2024-11-08 17:57:53.701 -0500] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "1", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 2993133, "logfile": "/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service1.log"}
 \# Thread usage report: 43 active threads, active load 1.40 at UTC 2024.11.08 22:57:57.746
-\# Memory report: using         434 MB, process size 2,390 MB at UTC 2024.11.08 22:57:57.747
-\o [2024-11-08 18:02:54.385 -0500] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "1", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 2993133, "logfile": "/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service1.log"}
-\o Loading vdsil.cxt 
-\# Lic Summary:
-\# [18:02:55.404592] Cdslmd servers:5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
-\# [18:02:55.404626] Feature usage summary:
-\# Memory report: on exit            426 MB, process size 2,382 MB at UTC 2024.11.08 23:02:55.404
-\# Memory report: peak usage         434 MB, process size 2,390 MB

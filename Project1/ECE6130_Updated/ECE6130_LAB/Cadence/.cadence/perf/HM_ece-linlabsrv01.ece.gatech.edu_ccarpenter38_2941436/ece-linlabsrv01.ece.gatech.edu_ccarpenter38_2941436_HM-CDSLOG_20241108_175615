@@ -1,38 +1,38 @@
-\# Program start time:     UTC 2024.11.08 22:57:29.279
-\# Local time: EST (UTC-05:00) 2024.11.08 17:57:29.279
+\# Program start time:     UTC 2024.11.08 22:55:36.337
+\# Local time: EST (UTC-05:00) 2024.11.08 17:55:36.337
 \o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/09/2024 22:36 (cpgbld15) $
 \o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
-\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlabsrv01.ece.gatech.edu -beanport 11657 -beanbinlog  -beanLogFile /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/amps_Service1.log -mpssession virtuoso2941436 -mpshost ece-linlabsrv01.ece.gatech.edu -davinciService DaVinciService_2941436_1731106643 -scopedPid 2941436 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid cd4e1d30-115a-4abb-8c78-6b07f79c1af9 -heartbeat /dev/shm/swift-heartbeat.5qIKRr7tv8 -log /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service1.log -adeBrokerAddress ece-linlabsrv01.ece.gatech.edu:39391 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D77F482089272CC286FA78410926AD02479FE8D1C9F67D0227DAAD246CD37C87766E3A12FFC06BC4D01CD18496B50DB6300001DD7 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Command line:	/tools/software/cadence/ic/latest/tools/dfII/bin/64bit/virtuoso
 \# Host name (type):	ece-linlabsrv01.ece.gatech.edu (x86_64)
 \# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
 \# Linux /etc/issue:	****************************************************************************
 \# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
 \# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
 \# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
-\# X display name (WxH):	:7870 (1024x868)
-\# Available geometry:			TL(0:0) BR(1023:867)
+\# X display name (WxH):	localhost:11.0 (1512x945)
+\# Available geometry:			TL(0:0) BR(1511:944)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
 \# Number of Planes Used:	24
-\# X version:		11.0 (vendor release 12011000)
-\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# X version:		11.0 (vendor release 12101006)
+\# X resource pool:	base 0xa00000, mask 0x1fffff (2097151), shift 0
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        736 MB
-\# Available memory:	    213,226 MB
+\# Initial sbrk value:	        755 MB
+\# Available memory:	    212,675 MB
 \# System memory:	    256,871 MB
-\# Maximum memory size:	    256,308 MB
-\# Max mem available:	    213,398 MB
-\# Initial memory used:	        173 MB
-\#        process size:	      1,700 MB
+\# Maximum memory size:	    256,291 MB
+\# Max mem available:	    212,850 MB
+\# Initial memory used:	        175 MB
+\#        process size:	      1,703 MB
 \# Thread usage limits (effective/default):	maxthreads 764803/764803 maxload 112.00/112.00
 \# Qt version:		5.15.9
 \# Window Manager:	other
 \# User Name:		ccarpenter38
 \o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
-\# Process Id:		2993133
+\# Process Id:		2941436
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -64,26 +64,11 @@
 \o Loading seismic.cxt 
 \o Loading ci.cxt 
 \o Loading layers.cxt 
+\# Available memory:        212,678 MB at UTC 2024.11.08 22:55:47.265
+\# Memory report: Maximum memory size now 212,943 MB at UTC 2024.11.08 22:55:47.265
+\# Thread usage report: 42 active threads, active load 1.40 at UTC 2024.11.08 22:55:47.265
 \o Loading drv.cxt 
 \o Loading ams.cxt 
-\o Loading oasis.cxt 
-\o Loading dal.cxt 
-\o Loading awv.cxt 
-\o Loading socket.cxt 
-\o Loading analog.cxt 
-\o Loading par.cxt 
-\o Loading asimenv.cxt 
-\o Loading alvs.cxt 
-\o Loading caa.cxt 
-\o Loading amps.cxt 
-\o Loading adexlCore.cxt 
-\# Memory report: using         289 MB, process size 1,862 MB at UTC 2024.11.08 22:57:31.155
-\o Loading adexl.cxt 
-\# Available memory:        213,235 MB at UTC 2024.11.08 22:57:44.509
-\# Memory report: Maximum memory size now 213,541 MB at UTC 2024.11.08 22:57:44.510
-\# Thread usage report: 42 active threads, active load 1.40 at UTC 2024.11.08 22:57:44.510
-\o *Info*    Exporting services from client ... 
-\o 
 \o Loading adexlDM.cxt 
 \o function _teExpandCallbacks redefined
 \o function _teGetCallback redefined
@@ -93,13 +78,10 @@
 \o Loading sipLayout.cxt 
 \o function _pcIdeSingleSelectPt redefined
 \o Loading diagCenter.cxt 
-\o INFO (ELI-00333) License program mode is LSCS.
-\# [17:57:29.142332] Configured Lic search path (23.02-s006): 5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso2941436, host=ece-linlabsrv01.ece.gatech.edu). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
-\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 2993133 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\o INFO (ELI-00333) License program mode is Virtuoso.
+\# [17:55:37.142308] Configured Lic search path (23.02-s006): 5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\# Memory report: using         299 MB, process size 1,894 MB at UTC 2024.11.08 22:55:54.271
 \o //
 \o //  Calibre Skill Interface * (v2024.3_37.19) *
 \o //
@@ -150,17 +132,6 @@
 \o Loading exportDie.cxt 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 2993133' to open it when Virtuoso freezes.
+\o The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 2941436' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
-\i _axlRunServices()
-\o Loading simui.cxt 
-\o [2024-11-08 17:57:53.701 -0500] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "1", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 2993133, "logfile": "/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service1.log"}
-\# Thread usage report: 43 active threads, active load 1.40 at UTC 2024.11.08 22:57:57.746
-\# Memory report: using         434 MB, process size 2,390 MB at UTC 2024.11.08 22:57:57.747
-\o [2024-11-08 18:02:54.385 -0500] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "1", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 2993133, "logfile": "/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service1.log"}
-\o Loading vdsil.cxt 
-\# Lic Summary:
-\# [18:02:55.404592] Cdslmd servers:5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
-\# [18:02:55.404626] Feature usage summary:
-\# Memory report: on exit            426 MB, process size 2,382 MB at UTC 2024.11.08 23:02:55.404
-\# Memory report: peak usage         434 MB, process size 2,390 MB
+\# Thread usage report: 43 active threads, active load 1.40 at UTC 2024.11.08 22:56:07.589
