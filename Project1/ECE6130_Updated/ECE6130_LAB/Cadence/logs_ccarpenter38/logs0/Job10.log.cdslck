@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ccarpenter38
+HostName                       ece-linlab02.ece.gatech.edu
+ProcessIdentifier              2425378
+ProcessCreationTime_UTC        1731276066
+ProcessCreationTime_Readable   Sun Nov 10 17:01:06 2024 EST
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Job10.log
+TimeEditLocked                 Sun Nov 10 17:01:06 2024 EST

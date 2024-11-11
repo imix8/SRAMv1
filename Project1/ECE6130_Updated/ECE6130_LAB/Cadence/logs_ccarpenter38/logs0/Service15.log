@@ -1,16 +1,16 @@
-\# Program start time:     UTC 2024.10.20 23:36:46.481
-\# Local time: EDT (UTC-04:00) 2024.10.20 19:36:46.481
+\# Program start time:     UTC 2024.11.10 22:12:59.889
+\# Local time: EST (UTC-05:00) 2024.11.10 17:12:59.889
 \o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/09/2024 22:36 (cpgbld15) $
 \o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
-\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlabsrv01.ece.gatech.edu -beanport 11375 -beanbinlog  -beanLogFile /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/amps_Service15.log -mpssession virtuoso3051549 -mpshost ece-linlabsrv01.ece.gatech.edu -davinciService DaVinciService_3051549_1729465385 -scopedPid 3051549 -axlSession fnxSession7 -axlServiceIdFlag 15 -uuid 9a1ebf05-6002-415b-9479-cad13433565b -heartbeat /dev/shm/swift-heartbeat.Lhq2K6FFFv -log /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service15.log -adeBrokerAddress ece-linlabsrv01.ece.gatech.edu:38123 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D77F482089272CC286FA78410926AD02479FE8D1C9F67D0227DAAD243CD32C87766E3A12FFC06BC4D01F61B14680DDB5800001DCF -interactive -offlineExprEval -upfrontMode -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
-\# Host name (type):	ece-linlabsrv01.ece.gatech.edu (x86_64)
+\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlab02.ece.gatech.edu -beanport 11781 -beanbinlog  -beanLogFile /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/amps_Service15.log -mpssession virtuoso1950441 -mpshost ece-linlab02.ece.gatech.edu -davinciService DaVinciService_1950441_1731271604 -scopedPid 1950441 -axlSession fnxSession5 -axlServiceIdFlag 15 -uuid 90806e67-2ba1-4a52-8679-3938277eef8c -heartbeat /dev/shm/swift-heartbeat.2LWtwoaiAT -log /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service15.log -adeBrokerAddress ece-linlab02.ece.gatech.edu:32843 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D77F482089272CC286FA78410926AD0246CE0EE7DFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D01D2A0F5D3ECDB7C00001E43 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	ece-linlab02.ece.gatech.edu (x86_64)
 \# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
 \# Linux /etc/issue:	****************************************************************************
 \# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
 \# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
 \# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
-\# X display name (WxH):	:8636 (1024x868)
+\# X display name (WxH):	:1350 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -20,19 +20,19 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        753 MB
-\# Available memory:	    220,530 MB
-\# System memory:	    256,871 MB
-\# Maximum memory size:	    256,290 MB
-\# Max mem available:	    220,703 MB
+\# Initial sbrk value:	        745 MB
+\# Available memory:	     17,235 MB
+\# System memory:	     23,388 MB
+\# Maximum memory size:	     22,816 MB
+\# Max mem available:	     17,407 MB
 \# Initial memory used:	        173 MB
-\#        process size:	      1,700 MB
-\# Thread usage limits (effective/default):	maxthreads 764803/764803 maxload 112.00/112.00
+\#        process size:	      1,701 MB
+\# Thread usage limits (effective/default):	maxthreads 61308/61308 maxload 8.00/8.00
 \# Qt version:		5.15.9
 \# Window Manager:	other
 \# User Name:		ccarpenter38
-\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
-\# Process Id:		1328015
+\o Working Directory:	ece-linlab02.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
+\# Process Id:		2463222
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -77,12 +77,12 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         288 MB, process size 1,857 MB at UTC 2024.10.20 23:36:48.358
+\# Memory report: using         290 MB, process size 1,862 MB at UTC 2024.11.10 22:13:01.281
 \o Loading adexl.cxt 
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
 \o Loading simui.cxt 
-\# Memory report: on exit            308 MB, process size 1,881 MB at UTC 2024.10.20 23:36:49.951
-\# Memory report: peak usage         308 MB, process size 1,881 MB
+\# Memory report: on exit            309 MB, process size 1,881 MB at UTC 2024.11.10 22:13:02.239
+\# Memory report: peak usage         309 MB, process size 1,881 MB

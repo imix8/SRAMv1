@@ -1,16 +1,16 @@
-\# Program start time:     UTC 2024.10.11 22:23:55.708
-\# Local time: EDT (UTC-04:00) 2024.10.11 18:23:55.708
+\# Program start time:     UTC 2024.11.10 22:09:06.449
+\# Local time: EST (UTC-05:00) 2024.11.10 17:09:06.449
 \o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/09/2024 22:36 (cpgbld15) $
 \o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
-\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlabsrv01.ece.gatech.edu -beanport 11683 -beanbinlog  -beanLogFile /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/amps_Service13.log -mpssession virtuoso1807518 -mpshost ece-linlabsrv01.ece.gatech.edu -davinciService DaVinciService_1807518_1728683092 -scopedPid 1807518 -axlSession fnxSession5 -axlServiceIdFlag 13 -uuid 7caddaf8-2ed4-4b77-aea6-6a437862e877 -heartbeat /dev/shm/swift-heartbeat.3QSmt8KbSg -log /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service13.log -adeBrokerAddress ece-linlabsrv01.ece.gatech.edu:33673 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D77F482089272CC286FA78410926AD02479FE8D1C9F67D0227DAAD247CD36C87766E3A12FFC06BC4D01EA2A66597FDB4400001DEC -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
-\# Host name (type):	ece-linlabsrv01.ece.gatech.edu (x86_64)
-\# Operating system:	Linux 4.18.0-553.16.1.el8_10.x86_64 #1 SMP Thu Aug 1 04:16:12 EDT 2024
+\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlab02.ece.gatech.edu -beanport 11781 -beanbinlog  -beanLogFile /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/amps_Service13.log -mpssession virtuoso1950441 -mpshost ece-linlab02.ece.gatech.edu -davinciService DaVinciService_1950441_1731271604 -scopedPid 1950441 -axlSession fnxSession4 -axlServiceIdFlag 13 -uuid 1625bfb8-0916-4428-92e1-a1c9d347b215 -heartbeat /dev/shm/swift-heartbeat.zbs5AIotla -log /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service13.log -adeBrokerAddress ece-linlab02.ece.gatech.edu:32843 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D77F482089272CC286FA78410926AD0246CE0EE7DFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D01D2A01FD306DB7C00001E1D -interactive -offlineExprEval -upfrontMode -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	ece-linlab02.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
 \# Linux /etc/issue:	****************************************************************************
 \# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
 \# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
 \# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
-\# X display name (WxH):	:4918 (1024x868)
+\# X display name (WxH):	:2800 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -20,19 +20,19 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        726 MB
-\# Available memory:	    195,484 MB
-\# System memory:	    256,871 MB
-\# Maximum memory size:	    256,317 MB
-\# Max mem available:	    195,657 MB
+\# Initial sbrk value:	        724 MB
+\# Available memory:	     17,231 MB
+\# System memory:	     23,388 MB
+\# Maximum memory size:	     22,837 MB
+\# Max mem available:	     17,404 MB
 \# Initial memory used:	        173 MB
-\#        process size:	      1,700 MB
-\# Thread usage limits (effective/default):	maxthreads 764801/764801 maxload 112.00/112.00
+\#        process size:	      1,701 MB
+\# Thread usage limits (effective/default):	maxthreads 61308/61308 maxload 8.00/8.00
 \# Qt version:		5.15.9
 \# Window Manager:	other
 \# User Name:		ccarpenter38
-\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
-\# Process Id:		1935189
+\o Working Directory:	ece-linlab02.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
+\# Process Id:		2453485
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -78,90 +78,11 @@
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
-\# Memory report: using         306 MB, process size 1,878 MB at UTC 2024.10.11 22:23:58.117
-\o *Info*    Exporting services from client ... 
+\# Memory report: using         306 MB, process size 1,878 MB at UTC 2024.11.10 22:09:08.778
 \o 
-\o Loading adexlDM.cxt 
-\o function _teExpandCallbacks redefined
-\o function _teGetCallback redefined
-\o Loading cpf.cxt 
-\o Loading cli.cxt 
-\o Loading lp.cxt 
-\o Loading sipLayout.cxt 
-\o function _pcIdeSingleSelectPt redefined
-\o Loading diagCenter.cxt 
-\o INFO (ELI-00333) License program mode is LSCS.
-\# [18:23:55.142276] Configured Lic search path (23.02-s006): 5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso1807518, host=ece-linlabsrv01.ece.gatech.edu). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
-\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 1935189 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\o //
-\o //  Calibre Skill Interface * (v2024.3_37.19) *
-\o //
-\o //                         Copyright Siemens 1996-2020     
-\o //                             All Rights Reserved.
-\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
-\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
-\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
-\o //
-\o //
-\o loading vars from /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
-\o ---------------------------------------------------------------------------
-\o Welcome to the FreePDK 45nm Free, Open-Source Process Design Kit
+\o *Info*    Received signal SIGTERM.
 \o 
-\o This initiative is brought to you by the Semiconductor Research
-\o Corporation (SRC), the National Science Foundation (NSF), Silicon
-\o Integration Initiative (Si2), Mentor Graphics, and Synopsys.
 \o 
-\o This version of the kit was created by Rhett Davis, Paul Franzon,
-\o Michael Bucher, and Sunil Basavarajaiah of North Carolina State University,
-\o and James Stine and Ivan Castellanos of Oklahoma State University.
-\o 
-\o Contributions and modifications to this kit are welcomed and encouraged.
-\o 
-\o Copyright 2008 North Carolina State University (ncsu_basekit subtree)
-\o                and Oklahoma State University (osu_soc subtree)
-\o 
-\o Licensed under the Apache License, Version 2.0 (the "License");
-\o you may not use this file except in compliance with the License.
-\o You may obtain a copy of the License at
-\o 
-\o     http://www.apache.org/licenses/LICENSE-2.0
-\o 
-\o Unless required by applicable law or agreed to in writing, software
-\o distributed under the License is distributed on an "AS IS" BASIS,
-\o WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-\o See the License for the specific language governing permissions and
-\o limitations under the License.
-\o ---------------------------------------------------------------------------
-\o 
-\o Done loading FreePDK customizations.
-\p > 
-\o Loading le.cxt 
-\o Loading tilp.cxt 
-\o Loading validator.cxt 
-\o Loading vrf.cxt 
-\o Loading multiTechPlugin.cxt 
-\o Loading exportDie.cxt 
-\# Loading perfDiag...
-\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1935189' to open it when Virtuoso freezes.
-\# (PerfDiag): Use backtrace from GLIBC.
-\i _axlRunServices()
-\# [18:24:02.307353] Periodic Lic check successful
-\# [18:24:02.831643] Feature usage summary:
 \o Loading simui.cxt 
-\o [2024-10-11 18:24:02.863 -0400] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "13", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 1935189, "logfile": "/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service13.log"}
-\# Memory report: using         436 MB, process size 2,392 MB at UTC 2024.10.11 22:24:04.912
-\# Available memory:        195,485 MB at UTC 2024.10.11 22:24:08.920
-\# Memory report: Maximum memory size now 195,921 MB at UTC 2024.10.11 22:24:08.920
-\# Thread usage report: 43 active threads, active load 1.40 at UTC 2024.10.11 22:24:08.920
-\o [2024-10-11 18:27:03.077 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "13", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 1935189, "logfile": "/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/Service13.log"}
-\o Loading vdsil.cxt 
-\# Lic Summary:
-\# [18:27:04.126954] Cdslmd servers:5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
-\# [18:27:04.126986] Feature usage summary:
-\# Memory report: on exit            428 MB, process size 2,384 MB at UTC 2024.10.11 22:27:04.127
-\# Memory report: peak usage         436 MB, process size 2,392 MB
+\# Memory report: on exit            309 MB, process size 1,881 MB at UTC 2024.11.10 22:09:08.784
+\# Memory report: peak usage         309 MB, process size 1,881 MB
