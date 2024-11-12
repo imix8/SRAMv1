@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 1 17:11:18 2024</timestamp>
-			<uuid>{0dce41f3-3d2b-4142-bcb7-ce8a1ec06fda}</uuid>
+			<timestamp>Nov 11 18:28:30 2024</timestamp>
+			<uuid>{efbc45f8-36e4-47b8-a07b-342a95b826e0}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/SRAM_SIM/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/nethome/ccarpenter38/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/SRAM_SIM/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/SRAM_SIM/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/nethome/ccarpenter38/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/SRAM_SIM/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/nethome/imix3/simulation/ECE4130_Project/SRAM_SIM/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/nethome/ccarpenter38/simulation/ECE4130_Project/SRAM_SIM/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ECE4130_Project/SRAM_SIM/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>
