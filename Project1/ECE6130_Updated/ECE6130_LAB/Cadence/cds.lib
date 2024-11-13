@@ -9,4 +9,5 @@ DEFINE avTech /tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/a
 #Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial
 #Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial
 DEFINE Tutorial /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial
-DEFINE ECE4130_Project /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project
+DEFINE ECE4130_Project /nethome/aharrison63/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project
+#Removed by ddDeleteObj: DEFINE SRAM_Inverter_Test /nethome/aharrison63/ECE6130_Updated/ECE6130_LAB/Cadence/SRAM_Inverter_Test
