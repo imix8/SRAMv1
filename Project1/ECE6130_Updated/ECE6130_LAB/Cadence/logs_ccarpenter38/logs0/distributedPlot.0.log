@@ -1,0 +1,79 @@
+\# Program start time:     UTC 2024.10.11 19:34:08.626
+\# Local time: EDT (UTC-04:00) 2024.10.11 15:34:08.626
+\o Program:		@(#)$CDS: viva version IC23.1-64b 07/09/2024 22:31 (sjfhw318) $
+\o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
+\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/viva -brokerAddress ece-linlabsrv01.ece.gatech.edu:38273 -tag 811060cf30fa8f47dc65b4a74bc733ec -axlsession fnxSession0 -libCellView ECE4130_Project:inverter:maestro -adeService distribuedPlot -noautostart -distributedPlot 1 -log /nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence/logs_ccarpenter38/logs0/distributedPlot.0.log -no-ciw -nocdsinit -viva-service 000143E78B008E70EF2803E3E662FC18BC4D77F482089272CC286FA78410926AD02479FE8D1C9F67D0227DAAD247CD36C87766E3A12FFC06BC4D01EAF2B281ABDB4400001DCC
+\# Host name (type):	ece-linlabsrv01.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.16.1.el8_10.x86_64 #1 SMP Thu Aug 1 04:16:12 EDT 2024
+\# Linux /etc/issue:	****************************************************************************
+\# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
+\# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
+\# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
+\# X display name (WxH):	localhost:10.0 (1512x945)
+\# Available geometry:			TL(0:0) BR(1511:944)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12101006)
+\# X resource pool:	base 0x1200000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	         74 MB
+\# Available memory:	    194,505 MB
+\# System memory:	    256,871 MB
+\# Maximum memory size:	    256,855 MB
+\# Max mem available:	    194,563 MB
+\# Initial memory used:	         58 MB
+\#        process size:	        612 MB
+\# Thread usage limits (effective/default):	maxthreads 764801/764801 maxload 112.00/112.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		ccarpenter38
+\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/ccarpenter38/ECE6130_Updated/ECE6130_LAB/Cadence
+\# Process Id:		789267
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Connecting to maeBroker at port: 'ece-linlabsrv01.ece.gatech.edu:38273'
+\o Loading ams.cxt 
+\o Loading auCore.cxt 
+\o INFO (ELI-00333) License program mode is VIVAservice.
+\p > 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading viva.cxt 
+\o Distributed Plot: Initializing Distributed Plot service.
+\# Memory report: using         221 MB, process size 1,387 MB at UTC 2024.10.11 19:34:12.922
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         335 MB, process size 1,501 MB at UTC 2024.10.11 19:34:15.179
+\o Loading vqp.cxt 
+\# Memory report: using       1,269 MB, process size 9,589 MB at UTC 2024.10.11 19:34:16.270
+\a hiResizeWindow(swindow(1) list(227:98 1227:898))
+\r t
+\# Available memory:        194,497 MB at UTC 2024.10.11 19:34:20.549
+\# Memory report: Maximum memory size now 195,774 MB at UTC 2024.10.11 19:34:20.549
+\# Thread usage report: 42 active threads, active load 1.40 at UTC 2024.10.11 19:34:20.549
+\a hiSetCurrentWindow(window(2))
+\r t
+\a hiCloseWindow(swindow(1))
+\r t
+\a exit()
+\o 
+\# Memory report: on exit            406 MB, process size 8,790 MB at UTC 2024.10.11 19:41:58.340
+\# Memory report: peak usage       1,277 MB, process size 9,662 MB

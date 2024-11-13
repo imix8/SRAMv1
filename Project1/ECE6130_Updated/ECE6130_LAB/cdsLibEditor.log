@@ -1,0 +1,18 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 06/19/2024 03:32 (sjfdcl966) $
+\o Sub version:		sub-version  s080 
+\o Arguments:		-cdslib /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/cds.lib -mpssession virtuoso1333948 -mpshost ece-linlab16.ece.gatech.edu -mpsversion 23.1 
+\o Working Directory:	ece-linlab16.ece.gatech.edu:/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.15.9
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(51 620 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(51 620 1127 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(160 282 1127 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(160 282 1127 605))
+\a exit(0)

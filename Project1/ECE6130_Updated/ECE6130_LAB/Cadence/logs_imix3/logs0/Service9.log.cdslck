@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      imix3
+HostName                       ece-linlab15.ece.gatech.edu
+ProcessIdentifier              1467697
+ProcessCreationTime_UTC        1730476303
+ProcessCreationTime_Readable   Fri Nov  1 11:51:43 2024 EDT
+AppIdentifier                  /tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/logs_imix3/logs0/Service9.log
+TimeEditLocked                 Fri Nov  1 11:51:43 2024 EDT

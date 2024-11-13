@@ -1,0 +1,88 @@
+\# Program start time:     UTC 2024.10.25 14:49:28.409
+\# Local time: EDT (UTC-04:00) 2024.10.25 10:49:28.409
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/09/2024 22:36 (cpgbld15) $
+\o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
+\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlab22.ece.gatech.edu -beanport 11635 -beanbinlog  -beanLogFile /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/logs_imix3/logs0/amps_Service3.log -mpssession virtuoso234851 -mpshost ece-linlab22.ece.gatech.edu -davinciService DaVinciService_234851_1729866910 -scopedPid 234851 -axlSession fnxSession1 -axlServiceIdFlag 3 -uuid 498533c9-48d4-4e95-8c6c-e333d2238261 -heartbeat /dev/shm/swift-heartbeat.6beG84WSSw -log /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/logs_imix3/logs0/Service3.log -adeBrokerAddress ece-linlab22.ece.gatech.edu:43421 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D3C9BE672FC068F4D6FA78410926AD0246EE3EE7DFC06867F66E38F1FFC06BC4D66E38F1FFC06BC4D01F820E953F0DB5600001E53 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	ece-linlab22.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
+\# Linux /etc/issue:	****************************************************************************
+\# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
+\# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
+\# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
+\# X display name (WxH):	:2327 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        746 MB
+\# Available memory:	     17,979 MB
+\# System memory:	     23,385 MB
+\# Maximum memory size:	     22,812 MB
+\# Max mem available:	     18,152 MB
+\# Initial memory used:	        173 MB
+\#        process size:	      1,701 MB
+\# Thread usage limits (effective/default):	maxthreads 61307/61307 maxload 8.00/8.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		imix3
+\o Working Directory:	ece-linlab22.ece.gatech.edu:/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+\# Process Id:		240800
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o INFO (CMGR-2107): The following Constraint Manager configuration files have been combined together (in decreasing order of precedence, specified by your search path - setup.loc) 
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/ci/config.xml
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/ci/config.xml
+\o INFO (CMGR-2107): The following Constraint Manager configuration files have been combined together (in decreasing order of precedence, specified by your search path - setup.loc) 
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/caa/config.xml
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/caa/config.xml
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         306 MB, process size 1,878 MB at UTC 2024.10.25 14:49:30.714
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
+\# Memory report: on exit            309 MB, process size 1,881 MB at UTC 2024.10.25 14:49:30.722
+\# Memory report: peak usage         309 MB, process size 1,881 MB

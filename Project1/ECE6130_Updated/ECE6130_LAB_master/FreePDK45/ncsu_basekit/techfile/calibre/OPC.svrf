@@ -1,0 +1,67 @@
+opc_metal1 = LITHO DENSEOPC FILE metal1 metal1 MAP metal1_opc
+opc_metal1 {COPY opc_metal1} DRC CHECK MAP opc_metal1 oasis 111 metal1_opc_out.oas
+LITHO FILE metal1 [
+modelpath $env(PDK_DIR)/ncsu_basekit/techfile/calibre/models
+optical_model_load opticalD0 opticalD0
+resist_model_load vt5out vt5out.mod 
+background clear
+layer metal1 hidden atten 0.06
+denseopc_options dopc {
+version 1
+background clear
+layer metal1 opc atten 0.06
+image optical opticalD0 resist vt5out
+}
+setlayer metal1_opc = denseopc metal1 MAP metal1 OPTIONS dopc
+]
+
+opc_contact = LITHO DENSEOPC FILE contact contact MAP contact_opc
+opc_contact {COPY opc_contact} DRC CHECK MAP opc_contact oasis 111 contact_opc_out.oas
+LITHO FILE contact [
+modelpath $env(PDK_DIR)/ncsu_basekit/techfile/calibre/models
+optical_model_load opticalD0 opticalD0
+resist_model_load vt5out vt5out.mod 
+background clear
+layer contact hidden atten 0.06
+denseopc_options dopc {
+version 1
+background clear
+layer contact opc atten 0.06
+image optical opticalD0 resist vt5out
+}
+setlayer contact_opc = denseopc contact MAP contact OPTIONS dopc
+]
+
+opc_poly = LITHO DENSEOPC FILE poly poly MAP poly_opc
+opc_poly {COPY opc_poly} DRC CHECK MAP opc_poly oasis 111 poly_opc_out.oas
+LITHO FILE poly [
+modelpath $env(PDK_DIR)/ncsu_basekit/techfile/calibre/models
+optical_model_load opticalD0 opticalD0
+resist_model_load vt5out vt5out.mod 
+background clear
+layer poly hidden atten 0.06
+denseopc_options dopc {
+version 1
+background clear
+layer poly opc atten 0.06
+image optical opticalD0 resist vt5out
+}
+setlayer poly_opc = denseopc poly MAP poly OPTIONS dopc
+]
+
+opc_active = LITHO DENSEOPC FILE active active MAP active_opc
+opc_active {COPY opc_active} DRC CHECK MAP opc_active oasis 111 active_opc_out.oas
+LITHO FILE active [
+modelpath $env(PDK_DIR)/ncsu_basekit/techfile/calibre/models
+optical_model_load opticalD0 opticalD0
+resist_model_load vt5out vt5out.mod 
+background clear
+layer active hidden atten 0.06
+denseopc_options dopc {
+version 1
+background clear
+layer active opc atten 0.06
+image optical opticalD0 resist vt5out
+}
+setlayer active_opc = denseopc active MAP active OPTIONS dopc
+]

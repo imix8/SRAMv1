@@ -1,0 +1,13 @@
+version 6
+engine TCCcalc
+opticalsystem 0.193 1.200 0.750
+defocuslevels 5 -0.100 0.020
+magnification 2.
+approxorder 10
+hoodpix 1.280
+kerngrid 0.010
+illumtype STANDARD
+film 0.09 1.71 -0.015 "90 nm JSR 1941J"
+substrate 1.492 -0.684
+beamfocus -0.01
+ambient 1.333

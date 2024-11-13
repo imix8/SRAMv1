@@ -1,0 +1,37 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EXAMPLE
+* Top Cell Name: INVX1
+* View Name:     schematic
+* Netlisted on:  Feb 17 15:47:52 2011
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: EXAMPLE
+* Cell Name:    INVX1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVX1 A Y gnd vdd
++ idLp0=0 idWp0=0 idVthp0=0
++ idLn0=0 idWn0=0 idVthn0=0
+
+*.PININFO A:B Y:B gnd:B vdd:B
+MM0 Y A vdd vdd PMOS_VTL W='5e-07+idWp0' L='5e-08+idLp0' DELVTO=idVthp0
+MM1 Y A gnd gnd NMOS_VTL W='2.5e-07+idWn0' L='5e-08+idLn0' DELVTO=idVthn0
+.ENDS
+

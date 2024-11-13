@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="146"
+   name=""
+   committed-date="2008-10-30T16:40:07.599422Z"
+   url="https://svn.unity.ncsu.edu/osi/freepdk45/trunk/ncsu_basekit/techfile/calibre/models"
+   last-author="wdavis@EOS.NCSU.EDU"
+   kind="dir"
+   uuid="3fb5a392-cd06-48a0-8d96-fae7e2c531dc"
+   revision="149"/>
+<entry
+   committed-rev="144"
+   name="OpticalD0"
+   text-time="2008-10-29T16:21:12.000000Z"
+   committed-date="2008-10-29T16:21:58.717953Z"
+   checksum="8aa9bf69c14ca2e60b414c644d3c1b73"
+   last-author="wdavis@EOS.NCSU.EDU"
+   kind="file"/>
+<entry
+   committed-rev="144"
+   name="OpticalD10"
+   text-time="2008-10-29T16:21:12.000000Z"
+   committed-date="2008-10-29T16:21:58.717953Z"
+   checksum="d8dc440fe5a057b0382d1aa67210ce82"
+   last-author="wdavis@EOS.NCSU.EDU"
+   kind="file"/>
+<entry
+   committed-rev="146"
+   name="vt5out.mod"
+   text-time="2008-10-30T15:56:47.000000Z"
+   committed-date="2008-10-30T16:40:07.599422Z"
+   checksum="c736281eecf0817b8994cbce20c7dfa5"
+   last-author="wdavis@EOS.NCSU.EDU"
+   kind="file"/>
+<entry
+   committed-rev="144"
+   name="OpticalDM10"
+   text-time="2008-10-29T16:21:12.000000Z"
+   committed-date="2008-10-29T16:21:58.717953Z"
+   checksum="25aaa02640aa68c508ca86996b000ff0"
+   last-author="wdavis@EOS.NCSU.EDU"
+   kind="file"/>
+</wc-entries>
