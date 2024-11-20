@@ -30,6 +30,11 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<vars>
+					<var>t
+						<value></value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<extensions>
@@ -81,7 +86,15 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
+		<sortVariableValues>0</sortVariableValues>
+		<uselocalrdbdir>true</uselocalrdbdir>
+		<blocalrdbdir>/dev/shm/ece-linlabsrv01.ece.gatech.edu_ccarpenter381678990/ECE4130_Project/flipFlop/maestro/results/maestro/maestro.rdb</blocalrdbdir>
 	</active>
 	<history>History
 	</history>
+	<resultsname>/dev/shm/ece-linlabsrv01.ece.gatech.edu_ccarpenter381678990/ECE4130_Project/flipFlop/maestro/results/maestro/maestro.rdb</resultsname>
+	<simresults>/dev/shm/ece-linlabsrv01.ece.gatech.edu_ccarpenter381678990/ECE4130_Project/flipFlop/maestro/results/maestro/maestro.rdb</simresults>
 </setupdb>

@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 1 15:52:47 2024</timestamp>
-			<uuid>{884fc736-5c56-4694-8013-304f8b59fe30}</uuid>
+			<timestamp>Nov 18 16:47:38 2024</timestamp>
+			<uuid>{3704a68e-9027-4d32-b7e6-01af58f7cb4c}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/4to16Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/nethome/ccarpenter38/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/4to16Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/4to16Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/nethome/ccarpenter38/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/4to16Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/nethome/imix3/simulation/ECE4130_Project/4to16Decoder/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/nethome/ccarpenter38/simulation/ECE4130_Project/4to16Decoder/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ECE4130_Project/4to16Decoder/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>
