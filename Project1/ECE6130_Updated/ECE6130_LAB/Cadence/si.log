@@ -1,6 +1,16 @@
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.09s.
-MPS timeout is set to '60' seconds.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+
+*WARNING* The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+	but was defined in libFile '/nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+
+*WARNING* The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+	but was defined in libFile '/nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+
 INFO (TECH-150003): The technology database "NCSU_TechLib_FreePDK45" has been automatically
 updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+
+Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
-End netlisting Aug 24 15:02:41 2021
+
+End netlisting Nov 11 17:01:08 2024
+

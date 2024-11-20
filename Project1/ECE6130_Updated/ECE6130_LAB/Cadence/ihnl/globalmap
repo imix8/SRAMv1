@@ -1,8 +1,10 @@
 CADENCE IHNL11140
 $model
-HSPICE_Tutorial/myInverter/schematic myInverter
+ECE4130_Project/SRAM/schematic SRAM
 $endmodel
 $net
+gnd! gnd!
+vdd! vdd!
 $endnet
 $param
 $endparam

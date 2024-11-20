@@ -1,14 +1,12 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 06/19/2024 03:32 (sjfdcl966) $
 \o Sub version:		sub-version  s080 
-\o Arguments:		-cdslib /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib -mpssession virtuoso1335944 -mpshost ece-linlab16.ece.gatech.edu -mpsversion 23.1 
-\o Working Directory:	ece-linlab16.ece.gatech.edu:/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+\o Arguments:		-cdslib /nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib -mpssession virtuoso2407890 -mpshost ece-linlab01.ece.gatech.edu -mpsversion 23.1 
+\o Working Directory:	ece-linlab01.ece.gatech.edu:/nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.15.9
 \a nrSetCurrentWindow(cdsLibEditor)
 \a nrListItemAction(cdsLibEditor->mainTable 0 0)
 \o Active cell: 0 0 "cdsDefTechLib"
-\a nrResizeWindow(cdsLibEditor list(56 642 500 400))
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrResizeWindow(cdsLibEditor list(56 642 1015 400))
+\a nrResizeWindow(cdsLibEditor list(1035 100 500 400))
 \a exit(0)
