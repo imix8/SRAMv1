@@ -144,20 +144,3 @@
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
 \# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 102103' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
-\i _axlRunServices()
-\o Loading simui.cxt 
-\o [2024-11-21 16:33:56.293 -0500] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "1", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 102103, "logfile": "/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/logs_imix3/logs0/Service1.log"}
-\# Available memory:        180,204 MB at UTC 2024.11.21 21:34:00.343
-\# Memory report: Maximum memory size now 180,638 MB at UTC 2024.11.21 21:34:00.343
-\# Thread usage report: 43 active threads, active load 1.40 at UTC 2024.11.21 21:34:00.343
-\# Memory report: using         434 MB, process size 2,390 MB at UTC 2024.11.21 21:34:00.343
-\o 
-\o Loading vdsil.cxt 
-\o *Info*    Received signal SIGTERM.
-\o 
-\o 
-\# Lic Summary:
-\# [16:37:21.009697] Cdslmd servers:5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
-\# [16:37:21.534009] Feature usage summary:
-\# Memory report: on exit            434 MB, process size 2,390 MB at UTC 2024.11.21 21:37:21.534
-\# Memory report: peak usage         434 MB, process size 2,390 MB

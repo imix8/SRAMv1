@@ -17,4 +17,5 @@
  contact  drawing  10  0 
  pimplant  drawing  5  0 
  metal3  drawing  15  0 
+ text  drawing  230  0 
  active  drawing  1  0 

@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 07/09/2024 22:31 (cpgbld15) $
           : sub-version  IC23.1-64b.ISR8.40 
-Started at: 21-Nov-2024  14:55:43
+Started at: 21-Nov-2024  16:30:56
 User Name : imix3
-Host Name : ece-linlab15.ece.gatech.edu
+Host Name : ece-linlabsrv01.ece.gatech.edu
 Directory : /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -51,9 +51,9 @@ Summary of Objects Translated:
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               0
-	Text:                                   5
+	Text:                                   7
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 30408KB
+Elapsed Time: 0.5s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 30536KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

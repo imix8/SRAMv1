@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 1 14:35:36 2024</timestamp>
-			<uuid>{7ad6dafa-caaf-474c-ad93-a30c7a218f27}</uuid>
+			<timestamp>Nov 21 16:34:09 2024</timestamp>
+			<uuid>{e4211483-1986-4039-bb97-69a0b4c0d18e}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/2to4Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

@@ -1,5 +1,5 @@
 * File: SRAM.pex.netlist.SRAM.pxi
-* Created: Thu Nov 21 14:55:52 2024
+* Created: Thu Nov 21 16:26:16 2024
 * 
 x_PM_SRAM_!BL N_!BL_MM3_s !BL N_!BL_c_3_p PM_SRAM_!BL
 x_PM_SRAM_GND! N_GND!_MM4_d N_GND!_MM3_b N_GND!_c_20_n N_GND!_c_29_p GND!

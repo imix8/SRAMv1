@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      imix3
+HostName                       ece-linlabsrv01.ece.gatech.edu
+ProcessIdentifier              142239
+ProcessCreationTime_UTC        1732224855
+ProcessCreationTime_Readable   Thu Nov 21 16:34:15 2024 EST
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/logs_imix3/logs0/Job2.log
+TimeEditLocked                 Thu Nov 21 16:34:16 2024 EST

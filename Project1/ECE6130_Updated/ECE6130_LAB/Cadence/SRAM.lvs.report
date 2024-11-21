@@ -12,11 +12,11 @@
 
 
 REPORT FILE NAME:         SRAM.lvs.report
-LAYOUT NAME:              svdb/SRAM.sp ('SRAM')
+LAYOUT NAME:              SRAM.sp ('SRAM')
 SOURCE NAME:              SRAM.src.net ('SRAM')
-RULE FILE:                _calibrexRC.rul_
+RULE FILE:                _calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Thu Nov 21 14:55:47 2024
+CREATION TIME:            Thu Nov 21 16:31:04 2024
 CURRENT DIRECTORY:        /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 USER NAME:                imix3
 CALIBRE VERSION:          v2024.3_37.19    Tue Sep 3 16:13:28 PDT 2024
@@ -68,7 +68,7 @@ o LVS Setup:
    LVS ALL CAPACITOR PINS SWAPPABLE       NO
    LVS DISCARD PINS BY DEVICE             NO
    LVS SOFT SUBSTRATE PINS                NO
-   LVS INJECT LOGIC                       NO
+   LVS INJECT LOGIC                       YES
    LVS EXPAND UNBALANCED CELLS            YES
    LVS FLATTEN INSIDE CELL                NO
    LVS EXPAND SEED PROMOTIONS             NO
@@ -173,8 +173,8 @@ SOURCE CELL NAME:         SRAM
 
 --------------------------------------------------------------------------------------------------------------
 
-NUMBERS OF OBJECTS
-------------------
+INITIAL NUMBERS OF OBJECTS
+--------------------------
 
                 Layout    Source         Component Type
                 ------    ------         --------------
@@ -188,6 +188,20 @@ NUMBERS OF OBJECTS
  Total Inst:         6         6
 
 
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:               5         5
+
+ Instances:          1         1         _bitv (5 pins)
+                ------    ------
+ Total Inst:         1         1
+
+
 
 **************************************************************************************************************
                                INFORMATION AND WARNINGS
@@ -199,12 +213,11 @@ NUMBERS OF OBJECTS
                   -------    -------    ---------    ---------    ---------
    Ports:               5          5            0            0
 
-   Nets:                7          7            0            0
+   Nets:                5          5            0            0
 
-   Instances:           4          4            0            0    MN(NMOS_VTL)
-                        2          2            0            0    MP(PMOS_VTL)
+   Instances:           1          1            0            0    _bitv
                   -------    -------    ---------    ---------
-   Total Inst:          6          6            0            0
+   Total Inst:          1          1            0            0
 
 
 o Initial Correspondence Points:
