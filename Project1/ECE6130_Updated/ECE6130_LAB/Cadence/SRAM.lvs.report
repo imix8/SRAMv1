@@ -12,11 +12,11 @@
 
 
 REPORT FILE NAME:         SRAM.lvs.report
-LAYOUT NAME:              SRAM.sp ('SRAM')
+LAYOUT NAME:              svdb/SRAM.sp ('SRAM')
 SOURCE NAME:              SRAM.src.net ('SRAM')
-RULE FILE:                _calibreLVS.rul_
+RULE FILE:                _calibrexRC.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Thu Nov 21 11:09:08 2024
+CREATION TIME:            Thu Nov 21 14:55:47 2024
 CURRENT DIRECTORY:        /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 USER NAME:                imix3
 CALIBRE VERSION:          v2024.3_37.19    Tue Sep 3 16:13:28 PDT 2024
@@ -27,16 +27,13 @@ CALIBRE VERSION:          v2024.3_37.19    Tue Sep 3 16:13:28 PDT 2024
 
 
 
-                  #   #         #####################  
-                   # #          #                   #  
-                    #           #     INCORRECT     #  
-                   # #          #                   #  
-                  #   #         #####################  
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
 
 
-  Error:    Different numbers of nets.
-  Error:    Connectivity errors.
-  Error:    Property errors.
 
 
 **************************************************************************************************************
@@ -45,7 +42,7 @@ CALIBRE VERSION:          v2024.3_37.19    Tue Sep 3 16:13:28 PDT 2024
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  INCORRECT      SRAM                          SRAM
+  CORRECT        SRAM                          SRAM
 
 
 
@@ -71,7 +68,7 @@ o LVS Setup:
    LVS ALL CAPACITOR PINS SWAPPABLE       NO
    LVS DISCARD PINS BY DEVICE             NO
    LVS SOFT SUBSTRATE PINS                NO
-   LVS INJECT LOGIC                       YES
+   LVS INJECT LOGIC                       NO
    LVS EXPAND UNBALANCED CELLS            YES
    LVS FLATTEN INSIDE CELL                NO
    LVS EXPAND SEED PROMOTIONS             NO
@@ -163,159 +160,32 @@ o LVS Setup:
 
 
 
-                  #   #         #####################  
-                   # #          #                   #  
-                    #           #     INCORRECT     #  
-                   # #          #                   #  
-                  #   #         #####################  
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
 
 
-  Error:    Different numbers of nets (see below).
-  Error:    Connectivity errors.
-  Error:    Property errors.
 
 LAYOUT CELL NAME:         SRAM
 SOURCE CELL NAME:         SRAM
 
 --------------------------------------------------------------------------------------------------------------
 
-INITIAL NUMBERS OF OBJECTS
---------------------------
+NUMBERS OF OBJECTS
+------------------
 
                 Layout    Source         Component Type
                 ------    ------         --------------
  Ports:              5         5
 
- Nets:              10         7    *
+ Nets:               7         7
 
  Instances:          4         4         MN (4 pins)
                      2         2         MP (4 pins)
                 ------    ------
  Total Inst:         6         6
-
-
-NUMBERS OF OBJECTS AFTER TRANSFORMATION
----------------------------------------
-
-                Layout    Source         Component Type
-                ------    ------         --------------
- Ports:              5         5
-
- Nets:               8         5    *
-
- Instances:          1         1         _bitv (5 pins)
-                ------    ------
- Total Inst:         1         1
-
-
-       * = Number of objects in layout different from number in source.
-
-
-
-**************************************************************************************************************
-                                 INCORRECT OBJECTS
-**************************************************************************************************************
-
-
-LEGEND:
--------
-
-  ne  = Naming Error (same layout name found in source
-        circuit, but object was matched otherwise).
-
-
-**************************************************************************************************************
-                                   INCORRECT NETS
-
-DISC#  LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-  1    Net GND!                                                  GND!
-           6                                                    
-       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
-
---------------------------------------------------------------------------------------------------------------
-
-  2    Net 9                                                     ** missing net **
-
---------------------------------------------------------------------------------------------------------------
-
-  3    Net 10                                                    ** missing net **
-
-
-**************************************************************************************************************
-                                 INCORRECT INSTANCES
-
-DISC#  LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-  4    M5(0.6950,0.9025)  MP(PMOS_VTL)                           MM1  MP(PMOS_VTL)
-         d: VDD!                                                   d: VDD!
-         b: 10                                                     ** missing net **
-         ** VDD! **                                                b: VDD!
-
---------------------------------------------------------------------------------------------------------------
-
-  5    M2(0.6950,0.4675)  MN(NMOS_VTL)                           MM4  MN(NMOS_VTL)
-         d: GND!                                                   d: GND!
-         b: 9                                                      ** missing net **
-         ** GND! **                                                b: GND!
-
---------------------------------------------------------------------------------------------------------------
-
-  6    M4(0.4000,0.9025)  MP(PMOS_VTL)                           MM0  MP(PMOS_VTL)
-         d: VDD!                                                   d: VDD!
-         b: 10                                                     ** missing net **
-         ** VDD! **                                                b: VDD!
-
---------------------------------------------------------------------------------------------------------------
-
-  7    M1(0.4000,0.4675)  MN(NMOS_VTL)                           MM5  MN(NMOS_VTL)
-         d: GND!                                                   d: GND!
-         b: 9                                                      ** missing net **
-         ** GND! **                                                b: GND!
-
---------------------------------------------------------------------------------------------------------------
-
-  8    M0(0.2400,0.2775)  MN(NMOS_VTL)                           MM2  MN(NMOS_VTL)
-         g: WL                                                     g: WL
-         s: BL                                                     s: BL
-         b: 9                                                      ** missing net **
-         ** GND! **                                                b: GND!
-
---------------------------------------------------------------------------------------------------------------
-
-  9    M3(0.8050,0.2775)  MN(NMOS_VTL)                           MM3  MN(NMOS_VTL)
-         g: WL                                                     g: WL
-         s: !BL                                                    s: !BL
-         b: 9                                                      ** missing net **
-         ** GND! **                                                b: GND!
-
-
-
-**************************************************************************************************************
-                                      PROPERTY ERRORS
-
-DISC#  LAYOUT                                                    SOURCE                      ERROR
-**************************************************************************************************************
-
- 10    M5(0.6950,0.9025)  MP(PMOS_VTL)                           MM1  MP(PMOS_VTL)
-       w: 0.2 u                                                  w: 0.1 u                     0.1 u
-
- 11    M2(0.6950,0.4675)  MN(NMOS_VTL)                           MM4  MN(NMOS_VTL)
-       w: 0.1 u                                                  w: 0.2 u                     0.1 u
-
- 12    M4(0.4000,0.9025)  MP(PMOS_VTL)                           MM0  MP(PMOS_VTL)
-       w: 0.2 u                                                  w: 0.1 u                     0.1 u
-
- 13    M1(0.4000,0.4675)  MN(NMOS_VTL)                           MM5  MN(NMOS_VTL)
-       w: 0.1 u                                                  w: 0.2 u                     0.1 u
-
- 14    M0(0.2400,0.2775)  MN(NMOS_VTL)                           MM2  MN(NMOS_VTL)
-       w: 0.1 u                                                  w: 0.175 u                 0.075 u
-
- 15    M3(0.8050,0.2775)  MN(NMOS_VTL)                           MM3  MN(NMOS_VTL)
-       w: 0.1 u                                                  w: 0.175 u                 0.075 u
 
 
 
@@ -329,28 +199,17 @@ DISC#  LAYOUT                                                    SOURCE         
                   -------    -------    ---------    ---------    ---------
    Ports:               5          5            0            0
 
-   Nets:                6          5            2            0
+   Nets:                7          7            0            0
 
-   Instances:           1          1            0            0    _bitv
+   Instances:           4          4            0            0    MN(NMOS_VTL)
+                        2          2            0            0    MP(PMOS_VTL)
                   -------    -------    ---------    ---------
-   Total Inst:          1          1            0            0
-
-
-o Statistics:
-
-   1 passthrough layout net was found.
-
-
-o Passthrough Layout Nets And Their Ports:
-
-      (Layout nets which are connected only to ports).
-
-   GND! (port: GND!),
+   Total Inst:          6          6            0            0
 
 
 o Initial Correspondence Points:
 
-   Ports:        GND! BL !BL WL VDD!
+   Ports:        !BL GND! BL WL VDD!
 
 
 **************************************************************************************************************

@@ -2,7 +2,7 @@
 lvs_LvsOutFile RUNDIR /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 lvs_LvsfVersion 4
 lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {5 0 3 0}
+lvs_LvsComparisonSummary {3 0 0 0}
 lvs_SourceCase NO
 lvs_LayoutCase NO
 lvs_PowerName VDD
@@ -10,5 +10,5 @@ lvs_GroundName VSS
 lvs_GroundName GROUND
 lvs_LvsOutFile LVS_REPORT SRAM.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST SRAM.src.net
-lvs_LvsOutFile RULES_FILE _calibreLVS.rul_
-lvs_LvsRunTimes 1732205348 1732205348
+lvs_LvsOutFile RULES_FILE _calibrexRC.rul_
+lvs_LvsRunTimes 1732218947 1732218947

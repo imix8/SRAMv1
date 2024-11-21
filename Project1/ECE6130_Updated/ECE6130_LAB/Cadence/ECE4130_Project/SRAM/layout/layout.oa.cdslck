@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      imix3
+HostName                       ece-linlab15.ece.gatech.edu
+ProcessIdentifier              1037996
+ProcessCreationTime_UTC        1732211510
+ProcessCreationTime_Readable   Thu Nov 21 12:51:50 2024 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/SRAM/layout/layout.oa.cdslck
+TimeEditLocked                 Thu Nov 21 14:57:14 2024 EST

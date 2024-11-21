@@ -1,32 +1,14 @@
 {
     "PLEASE DON'T EDIT OR PARSE": "This is automatically generated file for extracting in QS",
-    "CREATION TIME": "Thu Nov 21 11:09:08 2024",
+    "CREATION TIME": "Thu Nov 21 14:55:47 2024",
     "VERSION": "1",
-    "LVS BOTTOM ERRORS": [
-        "Different numbers of nets",
-        "Connectivity errors",
-        "Property errors"
-    ],
     "LVS REPORT OPTION": [
         "N"
     ],
-    "LVS INCORRECT CELLS": [
+    "LVS CORRECT CELLS": [
         [
             "SRAM",
             "SRAM"
         ]
-    ],
-    "PASSTHROUGHS": {
-        "FOUND": [
-            {
-                "SRAM": "1",
-                "SRAM": "0"
-            }
-        ]
-    },
-    "TOP CELL PASSTHROUGH NETS AND PORTS": {
-        "LAY": [
-            "GND! (port: GND!)"
-        ]
-    }
+    ]
 }
