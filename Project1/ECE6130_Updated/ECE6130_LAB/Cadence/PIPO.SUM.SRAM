@@ -2,10 +2,10 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 07/09/2024 22:31 (cpgbld15) $
           : sub-version  IC23.1-64b.ISR8.40 
-Started at: 11-Nov-2024  17:01:07
-User Name : smin63
-Host Name : ece-linlab16.ece.gatech.edu
-Directory : /nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+Started at: 21-Nov-2024  12:11:12
+User Name : imix3
+Host Name : ece-linlab15.ece.gatech.edu
+Directory : /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-ECE4130_Project/SRAM/layout     0        0       0        68     0      0         5      0             0      0     0     0       0       
+ECE4130_Project/SRAM/layout     0        0       0        71     0      0         5      0             0      0     0     0       0       
 NCSU_TechLib_FreePDK45/NTAP/layout                              0        0       0        5      0      0         0      0             0      0     0     0       0       
 NCSU_TechLib_FreePDK45/PTAP/layout                              0        0       0        5      0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -36,14 +36,16 @@ Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Tex
 ---------------------------------------------------------------------------------------------------------------------------------------
 pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
 nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
-active          drawing         1       0         0        7        0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        4        0        0        0             0    0   0   0     0      0      
 nimplant        drawing         4       0         0        5        0        0        0             0    0   0   0     0      0      
 pimplant        drawing         5       0         0        3        0        0        0             0    0   0   0     0      0      
 poly            drawing         9       0         0        8        0        0        0             0    0   0   0     0      0      
 contact         drawing         10      0         0        18       0        0        0             0    0   0   0     0      0      
-metal1          drawing         11      0         0        24       0        5        0             0    0   0   0     0      0      
-via1            drawing         12      0         0        6        0        0        0             0    0   0   0     0      0      
-metal2          drawing         13      0         0        3        0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        22       0        2        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        8        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        5        0        1        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        2        0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        2        0        2        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
@@ -51,7 +53,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			78
+	Rectangles:			81
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -73,5 +75,5 @@ Summary of Objects Translated:
 	Cells:				3
 Design Libraries: 
 
-DEFINE NCSU_TechLib_FreePDK45	/nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
-DEFINE ECE4130_Project	/nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project
+DEFINE NCSU_TechLib_FreePDK45	/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE ECE4130_Project	/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project

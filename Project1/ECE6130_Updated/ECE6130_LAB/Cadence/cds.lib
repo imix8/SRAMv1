@@ -1,3 +1,5 @@
+# File Created by Mix, Ivan at Thu Nov 21 11:19:47 2024
+# assisted by CdsLibEditor
 # File Created by Min, Sunhong at Fri Nov  1 17:35:10 2024
 # assisted by CdsLibEditor
 # File Created by Mix, Ivan at Fri Nov  1 10:49:41 2024
@@ -10,5 +12,5 @@ DEFINE EXAMPLE $LAB_DIR/Cadence/EXAMPLE
 DEFINE avTech /tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech
 #Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial
 #Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial
-DEFINE Tutorial /nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial
-DEFINE ECE4130_Project /nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project
+DEFINE Tutorial /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial
+DEFINE ECE4130_Project /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project

@@ -1,7 +1,7 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1731362469 1731362469
-lvs_ExtOutFile RUNDIR /nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+lvs_ExtRunTimes 1732209075 1732209075
+lvs_ExtOutFile RUNDIR /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}

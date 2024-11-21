@@ -6,7 +6,7 @@
   stopList "auCdl"
   globalList "vdd! gnd!"
   hierDelim "."
-  netlistDir "/nethome/smin63/ECE4130_M/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence"
+  netlistDir "/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence"
  )
 ( model
 ( "ECE4130_Project/SRAM/schematic" "SRAM" )
