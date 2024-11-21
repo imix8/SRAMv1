@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SRAMArray.dv
+dv_start matched                                  
+dv_cell {SRAMArray} {SRAMArray} matched
+dv_obj_count -transformed_nets {1107 1107} -transformed_inst {3168 3168} -transformed_port {83 83}
+dv_end

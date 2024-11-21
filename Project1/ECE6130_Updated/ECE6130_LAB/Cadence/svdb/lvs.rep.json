@@ -1,0 +1,14 @@
+{
+    "PLEASE DON'T EDIT OR PARSE": "This is automatically generated file for extracting in QS",
+    "CREATION TIME": "Thu Nov 21 00:37:52 2024",
+    "VERSION": "1",
+    "LVS REPORT OPTION": [
+        "N"
+    ],
+    "LVS CORRECT CELLS": [
+        [
+            "SRAMArray",
+            "SRAMArray"
+        ]
+    ]
+}

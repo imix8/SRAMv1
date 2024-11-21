@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EXAMPLE
+* Top Cell Name: INVX1
+* View Name:     schematic
+* Netlisted on:  Nov 14 19:40:48 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: EXAMPLE
+* Cell Name:    INVX1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVX1 A Y gnd vdd
+*.PININFO A:B Y:B gnd:B vdd:B
+MM0 Y A vdd vdd PMOS_VTL W=5e-07 L=5e-08
+MM1 Y A gnd gnd NMOS_VTL W=2.5e-07 L=5e-08
+.ENDS
+

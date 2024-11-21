@@ -1,0 +1,29 @@
+#!tvf
+tvf::VERBATIM {
+//
+//  Rule file generated on Wed Nov 20 17:34:17 2024
+//  by Calibre Interactive v2024.3_37.19    Tue Sep 3 16:13:30 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "SRAM.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "SRAM"
+
+SOURCE PATH "SRAM.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "SRAM"
+
+PEX NETLIST "SRAM.pex.netlist" ELDO SOURCENAMES
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "SRAM.lvs.report"
+
+DRC ICSTATION YES
+
+}
+
+source "/nethome/aharrison63/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/FreePDK45/ncsu_basekit/techfile/calibre/calibreLFD.rul"

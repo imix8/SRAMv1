@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SRAM_Column.dv
+dv_start matched                                  
+dv_cell {SRAM_Column} {SRAM_Column} matched
+dv_obj_count -transformed_nets {21 21} -transformed_inst {4 4} -transformed_port {21 21}
+dv_end

@@ -1,0 +1,24 @@
+//
+//  Rule file generated on Thu Nov 21 00:25:31 2024
+//  by Calibre Interactive v2024.3_37.19    Tue Sep 3 16:13:30 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "SRAMArray.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "SRAMArray"
+
+DRC RESULTS DATABASE "SRAMArray.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "SRAMArray.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/nethome/aharrison63/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"

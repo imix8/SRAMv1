@@ -1,14 +1,19 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "myInverter"
+  blockName "SRAMArray"
   repList "auCdl schematic"
   stopList "auCdl"
+  globalList "gnd! vdd!"
   hierDelim "."
-  netlistDir "/nethome/ssharma497/dig_sys_nano_nodes_TA/tutorial/ECE6135_LAB/Cadence/"
+  netlistDir "/nethome/aharrison63/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence"
  )
 ( model
-( "HSPICE_Tutorial/myInverter/schematic" "myInverter" )
+( "ECE4130_Project/SRAM/schematic" "SRAM" )
+( "ECE4130_Project/SRAMColumn/schematic" "SRAMColumn" )
+( "ECE4130_Project/SRAMArray/schematic" "SRAMArray" )
  )
-( "myInverter" "ihnl/cds0/map" )
+( "SRAMArray" "ihnl/cds2/map" )
+( "SRAMColumn" "ihnl/cds1/map" )
+( "SRAM" "ihnl/cds0/map" )
  )

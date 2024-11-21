@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1732167471 1732167472
+lvs_ExtOutFile RUNDIR /nethome/aharrison63/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+lvs_ExtOutFile RULES_FILE _calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/SRAMArray.sp
+lvs_ExtOutFile EXTRACTION_REPORT SRAMArray.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/SRAMArray.pdsp }

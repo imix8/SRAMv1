@@ -1,0 +1,3 @@
+mgc_rve_context_lcv "ECE4130_Project" "SRAMArray" "layout" 2000
+mp 4 49.1975 28.175 49.4575 28.175 49.4575 28.58 49.1975 28.58
+mgc_rve_zoom 49.142 28.0885 49.513 28.6665 1

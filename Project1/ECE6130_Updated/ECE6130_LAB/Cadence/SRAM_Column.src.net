@@ -1,0 +1,67 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE4130_Project
+* Top Cell Name: SRAM_Column
+* View Name:     schematic
+* Netlisted on:  Nov 20 23:38:08 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: ECE4130_Project
+* Cell Name:    SRAM
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT SRAM !BL BL WL
+*.PININFO WL:I !BL:B BL:B
+MM4 gnd! net9 net2 gnd! NMOS_VTL W=200n L=50n
+MM5 net9 net2 gnd! gnd! NMOS_VTL W=200n L=50n
+MM3 net2 WL !BL gnd! NMOS_VTL W=175n L=50n
+MM2 BL WL net9 gnd! NMOS_VTL W=175n L=50n
+MM1 vdd! net9 net2 vdd! PMOS_VTL W=100n L=50n
+MM0 net9 net2 vdd! vdd! PMOS_VTL W=100n L=50n
+.ENDS
+
+************************************************************************
+* Library Name: ECE4130_Project
+* Cell Name:    SRAM_Column
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT SRAM_Column !BL BL WL0 WL1 WL2 WL3 WL4 WL5 WL6 WL7 WL8 WL9 WL10 WL11 
++ WL12 WL13 WL14 WL15 clk
+*.PININFO clk:I !BL:B BL:B WL0:B WL1:B WL2:B WL3:B WL4:B WL5:B WL6:B WL7:B 
+*.PININFO WL8:B WL9:B WL10:B WL11:B WL12:B WL13:B WL14:B WL15:B
+XI17 !BL BL WL8 / SRAM
+XI16 !BL BL WL12 / SRAM
+XI15 !BL BL WL14 / SRAM
+XI14 !BL BL WL15 / SRAM
+XI13 !BL BL WL13 / SRAM
+XI12 !BL BL WL10 / SRAM
+XI11 !BL BL WL11 / SRAM
+XI10 !BL BL WL9 / SRAM
+XI9 !BL BL WL4 / SRAM
+XI8 !BL BL WL6 / SRAM
+XI7 !BL BL WL7 / SRAM
+XI6 !BL BL WL5 / SRAM
+XI5 !BL BL WL2 / SRAM
+XI4 !BL BL WL3 / SRAM
+XI3 !BL BL WL1 / SRAM
+XI0 !BL BL WL0 / SRAM
+MM2 vdd! clk !BL vdd! PMOS_VTL W=400n L=50n
+MM1 BL clk vdd! vdd! PMOS_VTL W=400n L=50n
+MM0 !BL clk BL vdd! PMOS_VTL W=400n L=50n
+.ENDS
+

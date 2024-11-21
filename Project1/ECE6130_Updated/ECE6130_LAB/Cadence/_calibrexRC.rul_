@@ -1,0 +1,25 @@
+//
+//  Rule file generated on Thu Nov 21 00:37:45 2024
+//  by Calibre Interactive v2024.3_37.19    Tue Sep 3 16:13:30 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "SRAMArray.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "SRAMArray"
+
+SOURCE PATH "SRAMArray.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "SRAMArray"
+
+PEX NETLIST "SRAMArray.pex.netlist" ELDO SOURCENAMES
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "SRAMArray.lvs.report"
+
+DRC ICSTATION YES
+
+INCLUDE "/nethome/aharrison63/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/FreePDK45/ncsu_basekit/techfile/calibre/calibrexRC.rul"

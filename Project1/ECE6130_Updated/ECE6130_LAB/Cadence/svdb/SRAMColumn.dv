@@ -1,0 +1,12 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SRAMColumn.dv
+dv_start unmatched                                
+dv_cell {SRAMColumn} {SRAMColumn} unmatched
+dv_obj_count -transformed_nets {21 21} -transformed_inst {4 6} -transformed_port {21 21}
+dv_discrep 1 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {CC1} {  C(CP)}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {CC0} {  C(CP)}
+dv_discrep_line {}
+dv_end

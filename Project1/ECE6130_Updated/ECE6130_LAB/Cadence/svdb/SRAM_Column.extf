@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1732163893 1732163893
+lvs_ExtOutFile RUNDIR /nethome/aharrison63/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST SRAM_Column.sp
+lvs_ExtOutFile EXTRACTION_REPORT SRAM_Column.lvs.report.ext

@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SRAMColumnNoCap.dv
+dv_start matched                                  
+dv_cell {SRAMColumnNoCap} {SRAMColumnNoCap} matched
+dv_obj_count -transformed_nets {21 21} -transformed_inst {4 4} -transformed_port {21 21}
+dv_end
