@@ -1,0 +1,79 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SRAM.dv
+dv_start unmatched                                
+dv_cell {SRAM} {SRAM} unmatched
+dv_obj_count -transformed_nets {8 5} -transformed_inst {1 1} -transformed_port {5 5}
+dv_discrep 1 {Incorrect Nets} -inst_count { 2 2}
+dv_discrep_line {Net } -lnet {GND!} {                                                  } -snet {GND!} {}
+dv_discrep_line {    } -lnet {6} {                                                    }
+dv_discrep_line {--- 2 Connections On This Net ---                         --- 2 Connections On This Net ---}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 0 0}
+dv_discrep_line {Net } -lnet {9} {                                                     ** missing net **}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets} -inst_count { 0 0}
+dv_discrep_line {Net } -lnet {10} {                                                    ** missing net **}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Instances}
+dv_discrep_line {} -ldev {M5} {} -lloc {(0.6950,0.9025)} {  MP(PMOS_VTL)                           } -sdev {MM1} {  MP(PMOS_VTL)}
+dv_discrep_line {  } -lport {d} {: } -lnet {VDD!} {                                                   } -sport {d} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {10} {                                                     ** missing net **}
+dv_discrep_line {  ** } -lnet {VDD!} { **                                                } -sport {b} {: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Instances}
+dv_discrep_line {} -ldev {M2} {} -lloc {(0.6950,0.4675)} {  MN(NMOS_VTL)                           } -sdev {MM4} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {d} {: } -lnet {GND!} {                                                   } -sport {d} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {9} {                                                      ** missing net **}
+dv_discrep_line {  ** } -lnet {GND!} { **                                                } -sport {b} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Instances}
+dv_discrep_line {} -ldev {M4} {} -lloc {(0.4000,0.9025)} {  MP(PMOS_VTL)                           } -sdev {MM0} {  MP(PMOS_VTL)}
+dv_discrep_line {  } -lport {d} {: } -lnet {VDD!} {                                                   } -sport {d} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {10} {                                                     ** missing net **}
+dv_discrep_line {  ** } -lnet {VDD!} { **                                                } -sport {b} {: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Instances}
+dv_discrep_line {} -ldev {M1} {} -lloc {(0.4000,0.4675)} {  MN(NMOS_VTL)                           } -sdev {MM5} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {d} {: } -lnet {GND!} {                                                   } -sport {d} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {9} {                                                      ** missing net **}
+dv_discrep_line {  ** } -lnet {GND!} { **                                                } -sport {b} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Instances}
+dv_discrep_line {} -ldev {M0} {} -lloc {(0.2400,0.2775)} {  MN(NMOS_VTL)                           } -sdev {MM2} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {WL} {                                                     } -sport {g} {: } -snet {WL} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {BL} {                                                     } -sport {s} {: } -snet {BL} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {9} {                                                      ** missing net **}
+dv_discrep_line {  ** } -lnet {GND!} { **                                                } -sport {b} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Instances}
+dv_discrep_line {} -ldev {M3} {} -lloc {(0.8050,0.2775)} {  MN(NMOS_VTL)                           } -sdev {MM3} {  MN(NMOS_VTL)}
+dv_discrep_line {  } -lport {g} {: } -lnet {WL} {                                                     } -sport {g} {: } -snet {WL} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {!BL} {                                                    } -sport {s} {: } -snet {!BL} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {9} {                                                      ** missing net **}
+dv_discrep_line {  ** } -lnet {GND!} { **                                                } -sport {b} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 10 {Property Errors}
+dv_discrep_line {} -ldev {M5} {} -lloc {(0.6950,0.9025)} {  MP(PMOS_VTL)                           } -sdev {MM1} {  MP(PMOS_VTL)}
+dv_discrep_line {}  {w} {: }  {0.2 u} {                                                  }  {w} {: }  {0.1 u} {              }  {       0.1 u} {}
+dv_discrep_line {}
+dv_discrep 11 {Property Errors}
+dv_discrep_line {} -ldev {M2} {} -lloc {(0.6950,0.4675)} {  MN(NMOS_VTL)                           } -sdev {MM4} {  MN(NMOS_VTL)}
+dv_discrep_line {}  {w} {: }  {0.1 u} {                                                  }  {w} {: }  {0.2 u} {              }  {       0.1 u} {}
+dv_discrep_line {}
+dv_discrep 12 {Property Errors}
+dv_discrep_line {} -ldev {M4} {} -lloc {(0.4000,0.9025)} {  MP(PMOS_VTL)                           } -sdev {MM0} {  MP(PMOS_VTL)}
+dv_discrep_line {}  {w} {: }  {0.2 u} {                                                  }  {w} {: }  {0.1 u} {              }  {       0.1 u} {}
+dv_discrep_line {}
+dv_discrep 13 {Property Errors}
+dv_discrep_line {} -ldev {M1} {} -lloc {(0.4000,0.4675)} {  MN(NMOS_VTL)                           } -sdev {MM5} {  MN(NMOS_VTL)}
+dv_discrep_line {}  {w} {: }  {0.1 u} {                                                  }  {w} {: }  {0.2 u} {              }  {       0.1 u} {}
+dv_discrep_line {}
+dv_discrep 14 {Property Errors}
+dv_discrep_line {} -ldev {M0} {} -lloc {(0.2400,0.2775)} {  MN(NMOS_VTL)                           } -sdev {MM2} {  MN(NMOS_VTL)}
+dv_discrep_line {}  {w} {: }  {0.1 u} {                                                  }  {w} {: }  {0.175 u} {            }  {     0.075 u} {}
+dv_discrep_line {}
+dv_discrep 15 {Property Errors}
+dv_discrep_line {} -ldev {M3} {} -lloc {(0.8050,0.2775)} {  MN(NMOS_VTL)                           } -sdev {MM3} {  MN(NMOS_VTL)}
+dv_discrep_line {}  {w} {: }  {0.1 u} {                                                  }  {w} {: }  {0.175 u} {            }  {     0.075 u} {}
+dv_discrep_line {}
+dv_end

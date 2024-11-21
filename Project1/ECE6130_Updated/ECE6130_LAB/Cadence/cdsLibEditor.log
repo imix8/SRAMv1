@@ -1,14 +1,22 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 06/19/2024 03:32 (sjfdcl966) $
 \o Sub version:		sub-version  s080 
-\o Arguments:		-cdslib /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib -mpssession virtuoso1335944 -mpshost ece-linlab16.ece.gatech.edu -mpsversion 23.1 
-\o Working Directory:	ece-linlab16.ece.gatech.edu:/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+\o Arguments:		-cdslib /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib -mpssession virtuoso3155360 -mpshost ece-linlabsrv01.ece.gatech.edu -mpsversion 23.1 
+\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.15.9
 \a nrSetCurrentWindow(cdsLibEditor)
-\a nrListItemAction(cdsLibEditor->mainTable 0 0)
-\o Active cell: 0 0 "cdsDefTechLib"
-\a nrResizeWindow(cdsLibEditor list(56 642 500 400))
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrResizeWindow(cdsLibEditor list(56 642 1015 400))
+\a nrResizeWindow(cdsLibEditor list(710 375 500 402))
+\a nrListItemAction(cdsLibEditor->mainTable 16 1)
+\o Active cell: 16 1 "/nethome/ccarpenter38/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project"
+\a nrListItemRename(cdsLibEditor->mainTable, 16 1 "/nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project")
+\a nrListItemAction(cdsLibEditor->mainTable 17 0)
+\o Active cell: 17 0 ""
+\o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
+\a nrSetWindowVisibility(needSaveDialog "show")
+\a nrSetCurrentWindow(needSaveDialog)
+\a nrResizeWindow(needSaveDialog list(766 468 369 136))
+\a nrResizeWindow(needSaveDialog list(766 371 369 235))
+\a nrResizeWindow(needSaveDialog list(928 212 369 235))
+\a needSaveDialog->yesButton->value = t
 \a exit(0)

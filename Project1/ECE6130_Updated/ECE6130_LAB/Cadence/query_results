@@ -1,0 +1,5 @@
+mgc_rve_context_lcv "ECE4130_Project" "SRAM" "layout" 2000
+mgc_rve_highlight_index 0 "10" "#0000FFFF0000"
+mgc_rve_layer "nsub"
+mp 10 -0.1775 0.8475 1.035 0.8475 1.035 1.3125 0.18 1.3125 0.18 0.9025 -0.02 0.9025 -0.02 1.1025 0.18 1.1025 0.18 1.3125 -0.1775 1.3125
+mgc_rve_zoom -0.437 0.748 1.2945 1.412 1

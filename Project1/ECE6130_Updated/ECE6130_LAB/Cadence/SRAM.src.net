@@ -1,0 +1,36 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE4130_Project
+* Top Cell Name: SRAM
+* View Name:     schematic
+* Netlisted on:  Nov 21 11:09:04 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: ECE4130_Project
+* Cell Name:    SRAM
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT SRAM !BL BL WL
+*.PININFO WL:I !BL:B BL:B
+MM4 gnd! net9 net2 gnd! NMOS_VTL W=200n L=50n
+MM5 net9 net2 gnd! gnd! NMOS_VTL W=200n L=50n
+MM3 net2 WL !BL gnd! NMOS_VTL W=175n L=50n
+MM2 BL WL net9 gnd! NMOS_VTL W=175n L=50n
+MM1 vdd! net9 net2 vdd! PMOS_VTL W=100n L=50n
+MM0 net9 net2 vdd! vdd! PMOS_VTL W=100n L=50n
+.ENDS
+

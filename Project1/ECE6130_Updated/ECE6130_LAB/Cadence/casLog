@@ -1,0 +1,17 @@
+
+*** Checking layout cellview 'ECE4130_Project/SRAM/layout' against source cellview 'ECE4130_Project/SRAM/schematic'. - Thu Nov 21 07:16:29 2024 ***
+
+INFO (LX-1018): Schematic pin '!BL' has no corresponding layout pin.
+INFO (LX-1018): Schematic pin 'BL' has no corresponding layout pin.
+INFO (LX-1018): Schematic pin 'WL' has no corresponding layout pin.
+INFO (LX-1027): Schematic global net 'gnd!' has no corresponding layout net.
+INFO (LX-1027): Schematic global net 'vdd!' has no corresponding layout net.
+INFO (LX-1001): Schematic instance 'M0' has no corresponding layout instance.
+INFO (LX-1001): Schematic instance 'M1' has no corresponding layout instance.
+INFO (LX-1001): Schematic instance 'M2' has no corresponding layout instance.
+INFO (LX-1001): Schematic instance 'M3' has no corresponding layout instance.
+INFO (LX-1001): Schematic instance 'M4' has no corresponding layout instance.
+INFO (LX-1001): Schematic instance 'M5' has no corresponding layout instance.
+
+*** Check Against Source complete. ***
+

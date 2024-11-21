@@ -1,0 +1,13 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT SRAM gnd! BL !BL WL vdd!
+** N=10 EP=5 IP=0 FDC=6
+M0 7 WL BL 9 NMOS_VTL L=5e-08 W=1e-07 AD=3e-14 AS=1.8e-14 PD=8e-07 PS=5.6e-07 $X=480 $Y=555 $D=1
+M1 6 8 7 9 NMOS_VTL L=5e-08 W=1e-07 AD=6.15e-14 AS=3e-14 PD=1.43e-06 PS=8e-07 $X=800 $Y=935 $D=1
+M2 8 7 6 9 NMOS_VTL L=5e-08 W=1e-07 AD=3e-14 AS=6.15e-14 PD=8e-07 PS=1.43e-06 $X=1390 $Y=935 $D=1
+M3 8 WL !BL 9 NMOS_VTL L=5e-08 W=1e-07 AD=3e-14 AS=1.8e-14 PD=8e-07 PS=5.6e-07 $X=1610 $Y=555 $D=1
+M4 vdd! 8 7 10 PMOS_VTL L=5e-08 W=2e-07 AD=7.1475e-14 AS=3.2e-14 PD=1.2e-06 PS=7.2e-07 $X=800 $Y=1805 $D=0
+M5 8 7 vdd! 10 PMOS_VTL L=5e-08 W=2e-07 AD=3.2e-14 AS=7.1475e-14 PD=7.2e-07 PS=1.2e-06 $X=1390 $Y=1805 $D=0
+.ENDS
+***************************************

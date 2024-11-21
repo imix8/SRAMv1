@@ -1,1 +1,7 @@
-<Columns_settings/>
+<Columns_settings>
+ <View type="Schematic">
+  <Set name="Nets">
+   <Column name="Design Intent" visible="true"/>
+  </Set>
+ </View>
+</Columns_settings>

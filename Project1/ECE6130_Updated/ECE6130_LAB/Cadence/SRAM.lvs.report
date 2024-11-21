@@ -1,0 +1,361 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         SRAM.lvs.report
+LAYOUT NAME:              SRAM.sp ('SRAM')
+SOURCE NAME:              SRAM.src.net ('SRAM')
+RULE FILE:                _calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Thu Nov 21 11:09:08 2024
+CURRENT DIRECTORY:        /nethome/imix3/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence
+USER NAME:                imix3
+CALIBRE VERSION:          v2024.3_37.19    Tue Sep 3 16:13:28 PDT 2024
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets.
+  Error:    Connectivity errors.
+  Error:    Property errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      SRAM                          SRAM
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS RELAX INITIAL CPOINTS              NONE
+   LVS REVERSE WL                         NO
+   // LVS NETLIST FILTER DEVICES          NO
+   // LVS PRESERVE BOX PORTS              NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   LVS REPORT OPTION                      N
+   LVS REPORT UNITS                       YES
+   LVS SWAPPABLE HCELL PINS               GENERAL
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+   LVS EXPAND AMBIGUOUSLY HIGH SHORTED HCELLS NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets (see below).
+  Error:    Connectivity errors.
+  Error:    Property errors.
+
+LAYOUT CELL NAME:         SRAM
+SOURCE CELL NAME:         SRAM
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:              10         7    *
+
+ Instances:          4         4         MN (4 pins)
+                     2         2         MP (4 pins)
+                ------    ------
+ Total Inst:         6         6
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:               8         5    *
+
+ Instances:          1         1         _bitv (5 pins)
+                ------    ------
+ Total Inst:         1         1
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net GND!                                                  GND!
+           6                                                    
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 9                                                     ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 10                                                    ** missing net **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  4    M5(0.6950,0.9025)  MP(PMOS_VTL)                           MM1  MP(PMOS_VTL)
+         d: VDD!                                                   d: VDD!
+         b: 10                                                     ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    M2(0.6950,0.4675)  MN(NMOS_VTL)                           MM4  MN(NMOS_VTL)
+         d: GND!                                                   d: GND!
+         b: 9                                                      ** missing net **
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    M4(0.4000,0.9025)  MP(PMOS_VTL)                           MM0  MP(PMOS_VTL)
+         d: VDD!                                                   d: VDD!
+         b: 10                                                     ** missing net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    M1(0.4000,0.4675)  MN(NMOS_VTL)                           MM5  MN(NMOS_VTL)
+         d: GND!                                                   d: GND!
+         b: 9                                                      ** missing net **
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    M0(0.2400,0.2775)  MN(NMOS_VTL)                           MM2  MN(NMOS_VTL)
+         g: WL                                                     g: WL
+         s: BL                                                     s: BL
+         b: 9                                                      ** missing net **
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    M3(0.8050,0.2775)  MN(NMOS_VTL)                           MM3  MN(NMOS_VTL)
+         g: WL                                                     g: WL
+         s: !BL                                                    s: !BL
+         b: 9                                                      ** missing net **
+         ** GND! **                                                b: GND!
+
+
+
+**************************************************************************************************************
+                                      PROPERTY ERRORS
+
+DISC#  LAYOUT                                                    SOURCE                      ERROR
+**************************************************************************************************************
+
+ 10    M5(0.6950,0.9025)  MP(PMOS_VTL)                           MM1  MP(PMOS_VTL)
+       w: 0.2 u                                                  w: 0.1 u                     0.1 u
+
+ 11    M2(0.6950,0.4675)  MN(NMOS_VTL)                           MM4  MN(NMOS_VTL)
+       w: 0.1 u                                                  w: 0.2 u                     0.1 u
+
+ 12    M4(0.4000,0.9025)  MP(PMOS_VTL)                           MM0  MP(PMOS_VTL)
+       w: 0.2 u                                                  w: 0.1 u                     0.1 u
+
+ 13    M1(0.4000,0.4675)  MN(NMOS_VTL)                           MM5  MN(NMOS_VTL)
+       w: 0.1 u                                                  w: 0.2 u                     0.1 u
+
+ 14    M0(0.2400,0.2775)  MN(NMOS_VTL)                           MM2  MN(NMOS_VTL)
+       w: 0.1 u                                                  w: 0.175 u                 0.075 u
+
+ 15    M3(0.8050,0.2775)  MN(NMOS_VTL)                           MM3  MN(NMOS_VTL)
+       w: 0.1 u                                                  w: 0.175 u                 0.075 u
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               5          5            0            0
+
+   Nets:                6          5            2            0
+
+   Instances:           1          1            0            0    _bitv
+                  -------    -------    ---------    ---------
+   Total Inst:          1          1            0            0
+
+
+o Statistics:
+
+   1 passthrough layout net was found.
+
+
+o Passthrough Layout Nets And Their Ports:
+
+      (Layout nets which are connected only to ports).
+
+   GND! (port: GND!),
+
+
+o Initial Correspondence Points:
+
+   Ports:        GND! BL !BL WL VDD!
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec
