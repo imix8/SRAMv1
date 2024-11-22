@@ -15,8 +15,8 @@
 			<simdir>$AXL_PROJECT_DIR/ECE4130_Project/flipFlop/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 18 22:34:05 2024</timestamp>
-			<uuid>{cc460c20-1e5f-4138-8780-c87c653ead30}</uuid>
+			<timestamp>Nov 21 19:21:27 2024</timestamp>
+			<uuid>{b734c066-baf2-4ba5-9190-c34d4a537cbb}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/nethome/ccarpenter38/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/flipFlop/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

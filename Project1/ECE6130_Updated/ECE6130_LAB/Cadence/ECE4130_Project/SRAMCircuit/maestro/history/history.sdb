@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 20 16:53:54 2024</timestamp>
-			<uuid>{232fe140-0446-4695-bb26-1a66b9f4ec65}</uuid>
+			<timestamp>Nov 21 14:40:31 2024</timestamp>
+			<uuid>{39676c77-1a72-4c39-bddc-2111f89bd859}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/nethome/ccarpenter38/ECE4130_M/Project1/ECE6130_Updated/ECE6130_LAB/Cadence/ECE4130_Project/SRAMCircuit/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
